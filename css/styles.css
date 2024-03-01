@@ -19,6 +19,23 @@ ul {
     list-style: none;
 }
 
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -27,6 +44,8 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px
+    
 }
 
 .logo>span.custom-class {
@@ -190,16 +209,3 @@ ul {
 }
 
 
-.header{
-    border-bottom: 1px solid #e7e9fc;
-}
-
-.header-container{
-    display: flex;
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px 0 15px;
-    
-
-
-}
