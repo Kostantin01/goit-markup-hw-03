@@ -54,11 +54,21 @@ ul {
     color: #2e2f42;
 }
 
+.custom-menu{
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+}
+
 .custom-class{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-right: 0;
+    padding: 24px 0;
+    
+
     
 }
 .custom-class:hover {
