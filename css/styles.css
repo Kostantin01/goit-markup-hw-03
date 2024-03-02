@@ -62,6 +62,11 @@ ul {
     margin: 0;
 }
 
+.menu-item{
+    margin-right: 40px;
+    margin-right: 0;
+    padding: 24px 0;
+}
 .custom-class{
     font-weight: 500;
     line-height: 1.5;
