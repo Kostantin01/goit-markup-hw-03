@@ -54,7 +54,7 @@ ul {
     color: #2e2f42;
 }
 
-.custom-menu{
+.nav-menu{
     display: flex;
     gap: 40px;
     margin-right: 40px;
@@ -65,9 +65,8 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-right: 0;
-    padding: 24px 0;
-    
+    padding: 24px 0 24px;
+
 
     
 }
