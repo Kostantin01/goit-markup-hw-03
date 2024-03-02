@@ -23,12 +23,14 @@ ul {
 .header{
     border-bottom: 1px solid #e7e9fc;
 }
-
-.header-container {
-    display: flex;
+.conteiner {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
+
+}
+.header-container {
+    display: flex;
 }
 
 .nav{
