@@ -141,6 +141,7 @@ ul {
 
 .team-member {
     background-color: #FFFFFF;
+    display: block;
 }
 
 .team-member-name {
@@ -165,6 +166,7 @@ ul {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    display: block;
 }
 
 .project-title {
