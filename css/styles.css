@@ -57,8 +57,9 @@ ul {
 
 .menu{
     display: flex;
-    gap: 40px;
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .menu-item{
@@ -105,7 +106,12 @@ ul {
     gap: 40px;
 }
 
-
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
 
 .business {
     background-color: #2e2f42;
