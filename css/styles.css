@@ -110,11 +110,15 @@ ul {
 }
 
 
+
+-----------------------------------------
+
+
+
 .business {
     background-color: #2e2f42;
     padding: 188px 0;
 }
-
 
 .container {
     max-width: 1200px;
@@ -154,20 +158,29 @@ ul {
     background-color: #404BBF;
 }
 
+
+----------------------------------------------
+
+
+
+
+
+
 .list {
     padding: 120px 0 120px;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
+.visually-hidden{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
 }
+
 
 .feature-list{
     display: flex;
@@ -175,11 +188,9 @@ ul {
     flex-wrap: wrap;
 }
 
-.list-item{
-    width: calc((100% - 72px) / 4);
-
+.list-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
-
 
 .list-heading {
     font-weight: 500;
