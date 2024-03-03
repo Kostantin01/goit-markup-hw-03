@@ -129,6 +129,7 @@ ul {
     color: #ffffff;
     max-width: 496px;
     font-size: 24px;
+    margin: 0 auto;
 }
 
 .business-button {
@@ -140,6 +141,12 @@ ul {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
 }
 
 .business-button:hover,
