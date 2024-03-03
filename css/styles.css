@@ -112,7 +112,13 @@ ul {
 
 .business {
     background-color: #2e2f42;
-    padding: 188px 0
+    padding: 188px 0;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .business-heading {
@@ -121,6 +127,8 @@ ul {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
+    font-size: 24px;
 }
 
 .business-button {
