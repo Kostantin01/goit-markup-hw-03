@@ -176,10 +176,12 @@ ul {
         width: 1px;
         height: 1px;
         margin: -1px;
-        padding: 0;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
         border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 
 
@@ -187,6 +189,8 @@ ul {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
 
 .list-item {
@@ -244,7 +248,7 @@ ul {
 }
 
 .team-member-list{
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
 
 }
