@@ -241,7 +241,9 @@ ul {
 .team-member-img{
     display: block;
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 72px) / 4);
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
 }
 
 .team-member {
@@ -254,8 +256,9 @@ ul {
 }
 
 .team-member-list{
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
+    margin-right: 24px;
 }
 
 .employee-info container{
@@ -270,6 +273,7 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-right: 24px;
 }
 
 .team-member-role {
@@ -277,6 +281,7 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-right: 24px;
 }
 
 
