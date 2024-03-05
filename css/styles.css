@@ -244,6 +244,7 @@ ul {
     padding: 0px 0px 32px 0px;
     width: 264px;
     height: 380px;
+    
 }
 
 .team-member {
@@ -261,7 +262,7 @@ ul {
     margin-right: 24px;
 }
 
-.employee-info container{
+.employee-info {
     padding: 32px 0 32px;
 }
 
