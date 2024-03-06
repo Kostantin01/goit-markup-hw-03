@@ -314,7 +314,12 @@ ul {
 
 .portfolio-img{
     display: block;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 60px;
+    background: #fff;
 }
+
 
 .project-company{
     padding: 32px 16px;
