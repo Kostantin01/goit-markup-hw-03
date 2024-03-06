@@ -227,6 +227,7 @@ ul {
     padding: 120px 0;
 }
 
+
 .team-title {
     font-size: 36px;
     line-height: 1.11;
@@ -244,7 +245,6 @@ ul {
     padding: 0px 0px 32px 0px;
     width: 264px;
     height: 380px;
-    
 }
 
 .team-member {
@@ -284,6 +284,16 @@ ul {
     letter-spacing: 0.02em;
     margin-right: 24px;
 }
+
+
+
+
+
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 
 
 .portfolio-title {
