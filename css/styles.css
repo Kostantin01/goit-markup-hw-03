@@ -6,12 +6,6 @@ body {
 }
 
 
-h1,h2,h3 {
-    font-family: 'Raleway', sans-serif;
-    margin: 0;
-}
-
-
 a {
     text-decoration: none;
 }
@@ -21,8 +15,13 @@ ul {
 }
 
 
+h1, h2, h3, h4, ul, p, {
+    margin: 0;
+}
+
 .header{
     border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
 }
 .container {
     width: 1158px;
@@ -51,10 +50,11 @@ ul {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    display: block;
     
 }
 
-.logo>span.custom-class {
+.studio {
     color: #2e2f42;
 }
 
@@ -69,7 +69,6 @@ ul {
 .menu-item{
     margin-right: 40px;
     margin-right: 0;
-    padding: 24px 0;
 }
 .custom-class{
     font-weight: 500;
@@ -128,13 +127,14 @@ ul {
 }
 
 .business-heading {
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
     max-width: 496px;
-    font-size: 24px;
     margin: 0 auto;
     margin-bottom: 48px;
 }
@@ -161,8 +161,6 @@ ul {
 .business-button:focus {
     background-color: #404BBF;
 }
-
-
 
 
 
@@ -305,7 +303,6 @@ ul {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    margin: 0;
     padding: 0;
 }
 
@@ -359,8 +356,8 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
     display: inline-block;
-    margin-bottom: 16px;
 }
 
 .footer-description {
@@ -371,9 +368,8 @@ ul {
 }
 
 
-.footer-logo>span.footer-logo{
-    color: #f4f4fd;
-
+.footer-studio {
+    color: black;
 }
 
 
